@@ -232,7 +232,7 @@ client.on('message', msg => {
         vie = 0
         const avadakedavra = new Discord.RichEmbed()
             .setColor('#2cff00')
-            .setAuthor('*Avada Kedavra*, ce(tte) pauvre ' + pseudolanceur.nickname + ' est mort(e) sur le coup', "https://cdn.discordapp.com/emojis/676509851991670919.png?v=1")
+            .setAuthor('*Avada Kedavra*, ce(tte) pauvre ' + pseudolanceur.nickname + ' est mort(e) sur le coup #RIP', "https://cdn.discordapp.com/emojis/676509851991670919.png?v=1")
             .setDescription('-10 points pour ' + msg.member.nickname + "\n\nLa vie de " + pseudolanceur + " tombe à " + vie)
             .setTimestamp()
             .setImage("https://cdn.discordapp.com/attachments/676109589745369088/678696439299178501/0pv.png")
